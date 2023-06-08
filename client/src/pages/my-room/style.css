@@ -1,0 +1,110 @@
+.footer {
+  margin-top: 14rem;
+}
+
+.historyContainer {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.historyList {
+
+  width: 90%;
+  text-align: center;
+}
+
+.historyItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 16px 0;
+}
+
+.historyHeader {
+  font-weight: 600;
+}
+
+.historyItem div {
+  min-width: 15%;
+}
+
+.btnCancel {
+  font-weight: bold;
+  padding: 13px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 6rem;
+}
+
+.btnCancel:hover {
+  background-color: brown;
+}
+
+.noBooking {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 40px 0;
+}
+
+.alert-pending {
+  padding: 10px;
+  background-color: rgb(196, 196, 51);
+  width: fit-content;
+}
+
+.alert-cancel {
+  padding: 10px;
+  background-color: rgb(223, 70, 23);
+  width: fit-content;
+}
+
+.alert-success {
+  padding: 10px;
+  background-color: rgb(50, 223, 23);
+  width: fit-content;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.nav-room{
+  margin-left: 7rem;
+}
+
+.nav{
+  margin-left: 1rem;
+}
+
+.nav-action{
+  margin-left: 0.5rem;
+}
+
+.nav-status{
+  margin-left: -2rem;
+}
+
+.show-status{
+  margin-left: 20rem;
+}
+
+.show-cancel{
+  margin-right: 30rem;
+}
